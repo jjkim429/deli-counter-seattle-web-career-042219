@@ -6,7 +6,8 @@ def line(array)
   else
   newarray = []
   counter = 1
-  
+  array.each do |element|
+    
 end
 
 def take_a_number(array, customer)
