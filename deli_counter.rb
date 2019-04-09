@@ -3,7 +3,7 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   end
-  ##else
+  if array.length >= 1
   #newarray = []
   #counter = 0
   #  array.each do |element|
