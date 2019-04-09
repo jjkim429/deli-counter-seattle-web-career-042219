@@ -24,5 +24,6 @@ def now_serving(array)
   end
   else
     array.shift
+    return array.colle
 end
   
