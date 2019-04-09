@@ -10,7 +10,7 @@ def line(array)
       newarray.push("#{counter}. #{element}")
       counter +=1
     end
-  puts newarray.join 
+  puts "The line is currently: #{newarray.join(,"
 end
 
 def take_a_number(array, customer)
