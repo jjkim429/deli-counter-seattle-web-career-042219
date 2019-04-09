@@ -23,6 +23,6 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   end
   if array.length >= 1
-    puts "Now serving "
+    puts "Now serving #{line[0]}"
 end
   
