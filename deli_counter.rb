@@ -9,7 +9,8 @@ def line(array)
     array.each do |element|
       newarray.push("#{counter}. #{element}")
       counter +=1
-  end
+    end
+  puts newarray.join 
 end
 
 def take_a_number(array, customer)
