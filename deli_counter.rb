@@ -8,6 +8,7 @@ def line(array)
     counter = 1
     array.each do |element|
       newarray.push("#{counter}. #{element}")
+      counter +=1
   end
 end
 
