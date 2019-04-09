@@ -4,9 +4,9 @@ def line(array)
     puts "The line is currently empty."
   end
   if array.length >= 1
-    message = "The line is currently:"
     newarray = []
     counter = 1
+    
   end
 end
 
