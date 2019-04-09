@@ -4,10 +4,7 @@ def line(array)
     puts "The line is currently empty."
   end
   if array.length >= 1
-    current_line = "The simple line is currently:"
-    array.each.with_index(1) do |value, indexemus
-    current_line << " #{indexemus}. #{value},"
-    end 
+    puts "why is this broken"
 end
 
 def take_a_number(array, customer)
