@@ -4,6 +4,7 @@ def line(array)
     puts "The line is currently empty."
   end
   if array.length >= 1
+    
   #newarray = []
   #counter = 0
   #  array.each do |element|
