@@ -6,7 +6,7 @@ def line(array)
   else
   newarray = []
   counter = 1
-  until counter = array.length
+  
 end
 
 def take_a_number(array, customer)
