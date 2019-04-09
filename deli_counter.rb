@@ -8,7 +8,6 @@ def line(array)
     array.each.with_index(1) do |value, indexemus|
       current_line << " #{indexemus}. #{value},"
   end
-  puts current_line
 end
 
 def take_a_number(array, customer)
