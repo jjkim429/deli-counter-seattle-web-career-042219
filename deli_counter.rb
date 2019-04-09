@@ -9,7 +9,8 @@ def line(array)
     array.each do |name|
       nuarray.push("#{counter}. #{name}")
       counter += 1
-      
+    end 
+    puts "The line is currently: #{nuarray.join(" ")}"
   #newarray = []
   #counter = 0
   #  array.each do |element|
