@@ -15,7 +15,7 @@ end
 def take_a_number(array, customer)
     array.push(customer)
     place = array.index(customer)
-    puts "Welcome, #{customer}.  You are number #{array.index(customer) + 1} in line."
+    puts "Welcome, #{customer}. You are number #{array.index(customer) + 1} in line."
 end
 
 def now_serving(array)
