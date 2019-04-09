@@ -5,9 +5,9 @@ def line(array)
   end
   else
   newarray = []
-  counter = 1
+  counter = 0
   array.each do |element|
-    
+    newarray.push("#{array.index(counter) + 1")
 end
 
 def take_a_number(array, customer)
