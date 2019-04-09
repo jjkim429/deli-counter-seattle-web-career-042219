@@ -10,13 +10,7 @@ def line(array)
       nuarray.push("#{counter}. #{name}")
       counter += 1
     end 
-    puts "The line is currently: #{nuarray.join(" ")}"
-  #newarray = []
-  #counter = 0
-  #  array.each do |element|
-  #    newarray.push("#{array.index(counter) + 1}. ")
-  #   counter += 1
-  #  end
+  puts "The line is currently: #{nuarray.join(" ")}"
 end
 
 def take_a_number(array, customer)
