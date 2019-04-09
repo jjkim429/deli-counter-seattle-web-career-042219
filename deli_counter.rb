@@ -4,7 +4,8 @@ def line(array)
     puts "The line is currently empty."
   end
   if array.length >= 1
-    puts "error town"
+    message = "The line is currently:"
+    
   end
 end
 
