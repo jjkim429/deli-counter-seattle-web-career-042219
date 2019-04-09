@@ -4,11 +4,9 @@ def line(array)
     puts "The line is currently empty."
   end
   if array.length >= 1
-    nuarray = []
-    counter = 1 
-    array.each do |name|
-      nuarray.push("#{counter}. #{name}")
-      counter += 1
+    current_line = "The simple line is currently:"
+    array.each.with_index(1) do |value, indexemus
+    current_line << " #{indexemus}. #{value},"
     end 
 end
 
