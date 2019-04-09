@@ -5,6 +5,7 @@ def line(array)
   end
   if array.length >= 1
     puts "why is this broken"
+  end
 end
 
 def take_a_number(array, customer)
