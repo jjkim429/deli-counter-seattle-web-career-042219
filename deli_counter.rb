@@ -7,7 +7,7 @@ def line(array)
     newarray = []
     counter = 1
     array.each do |element|
-      newarray.push("#{counter +")
+      newarray.push("#{counter}. #{element}")
   end
 end
 
