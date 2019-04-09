@@ -10,7 +10,7 @@ def line(array)
       newarray.push("#{array.index(counter) + 1}. ")
      counter += 1
     end
-  
+  array
 end
 
 def take_a_number(array, customer)
