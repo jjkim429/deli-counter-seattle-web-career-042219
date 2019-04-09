@@ -6,7 +6,7 @@ def line(array)
   if array.length >= 1
     message = "The line is currently:"
     newarray = []
-    
+    counter = 1
   end
 end
 
