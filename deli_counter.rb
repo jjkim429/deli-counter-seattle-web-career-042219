@@ -5,7 +5,7 @@ def line(array)
   end
   if array.length >= 1
     message = "The line is currently:"
-    
+    array.each.with_index(1) do |value, indexemus|
   end
 end
 
