@@ -8,6 +8,7 @@ def line(array)
   counter = 0
   array.each do |element|
     newarray.push("#{array.index(counter) + 1}. ")
+    counter += 1
 end
 
 def take_a_number(array, customer)
